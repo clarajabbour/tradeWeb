@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Course Landing Page</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #000;
+            padding: 100px 20px;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #555;
+        }
+        .section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .course-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .course-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 40px);
+            max-width: calc(33% - 40px);
+            text-align: left;
+        }
+        .course-item h3 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .course-item p {
+            margin-top: 10px;
+        }
+        .faq-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+        <h1>Take Control of Your Trading Journey Today</h1>
+        <p>Join thousands of traders mastering the art of consistent profitability.</p>
+        <video controls autoplay muted loop style="width: 80%; max-height: 450px; border-radius: 10px; border: 2px solid #333;">
+            <source src="intro-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <a href="https://whop.com" class="cta-button">Get Started Now</a>
+    </header>
+
+    <section class="section">
+        <h2>What You’ll Get Inside the Course</h2>
+        <div class="course-grid">
+            <div class="course-item">
+                <h3>#1</h3>
+                <p>Support and Resistance: Identify high-probability trades.</p>
+            </div>
+            <div class="course-item">
+                <h3>#2</h3>
+                <p>Candlestick Patterns: Understand market behavior.</p>
+            </div>
+            <div class="course-item">
+                <h3>#3</h3>
+                <p>Bonus: Access to live Q&A sessions for Intermediate members.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>See What Our Students Say</h2>
+        <div class="course-grid">
+            <div class="course-item">
+                <p>"This course changed the way I trade. I’m finally seeing consistent results!"</p>
+            </div>
+            <div class="course-item">
+                <p>"Amazing support and clear instructions!"</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Got Questions? We’ve Got Answers</h2>
+        <div class="faq-item">
+            <h3>Is this course beginner-friendly?</h3>
+            <p>Yes! Our Beginner Course is designed for traders with no prior experience.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How do I access the course?</h3>
+            <p>After purchase, you’ll get instant access via Whop.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Meet Your Mentor</h2>
+        <img src="mentor-photo.jpg" alt="Your Mentor" style="max-width: 150px; border-radius: 50%; margin-bottom: 20px;">
+        <p>Hi, I’m [Name], a professional trader with over [X years] of experience. My mission is to help traders like you achieve consistent results and long-term success.</p>
+    </section>
+
+    <footer>
+        <p>Contact us at <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>&copy; 2024 Trading Course. All rights reserved.</p>
+    </footer>
+</body>
+</html>
